@@ -9,16 +9,16 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='pyvesync',
-    version='2.1.10',
+    name='tv4you2016_pyvesync',
+    version='0.0.5',
     description='pyvesync is a library to manage Etekcity\
                  Devices, Cosori Air Fryers and Levoit Air \
                      Purifiers run on the VeSync app.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/webdjoe/pyvesync',
-    author='Mark Perdue, Joe Trabulsy',
-    author_email='webdjoe@gmail.com',
+    url='https://github.com/tv4you2016/pyvesync',
+    author='Mark Perdue, Joe Trabulsy, Tv4you2016',
+    author_email='tv4you2016@gmail.com',
     license='MIT',
     classifiers=[
         'License :: OSI Approved :: MIT License',
